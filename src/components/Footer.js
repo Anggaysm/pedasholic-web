@@ -45,6 +45,12 @@ export default function Footer() {
           <Email email="pedasholicofficial@gmail.com" />
         </div>
       </div>
+      <div className="mx-6 py-4 md:text-xl">
+        <p>
+          New Sagira Kampoeng geulis blok A7 RT 04/RW 13, Manggung hardja,
+          kecamatan ciparay, Bandung, Jawa Barat, Indonesia
+        </p>
+      </div>
       <div className="h-0.5 bg-slate-300 my-5 w-2/3 mx-auto"></div>
 
       <div className="flex font-Poppins">
@@ -61,7 +67,7 @@ export default function Footer() {
         <div className="bg-slate-200 h-0.5 w-1/4"></div>
         <div>
           <h2 className="text-center text-xs  font-PublicSans">
-            pedasholicoficial@gmail.com
+            pedasholicofficial@gmail.com
           </h2>
         </div>
         <div className="bg-slate-200 h-0.5 w-1/4"></div>

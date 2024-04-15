@@ -50,6 +50,7 @@ export default function Navbar() {
           <NavDropDown klik={toggleMenu} />
           <NavItems name="About" to="/About" klik={toggleMenu} />
           <NavItems name="Blog" to="/Blog" klik={toggleMenu} />
+          <NavItems name="Contact" to="/Contact" klik={toggleMenu} />
         </div>
       </div>
     </nav>

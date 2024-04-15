@@ -1,4 +1,4 @@
-import satu from "../asset/img/artikle/1.webp";
+import satu from "../asset/img/about/Photo 4.png";
 export const DataArticle = [
   {
     id: 1,

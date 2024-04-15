@@ -8,7 +8,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Menu from "./pages/Menu";
 import ArticleContent from "./pages/ArticleContent";
 import Blog from "./pages/Blog";
-
+import { Contact } from "./pages/Contact";
 function App() {
   return (
     <div className="">
@@ -22,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   );

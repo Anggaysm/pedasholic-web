@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import { AiFillCaretUp } from "react-icons/ai";
 
 export default function FaqCard({ tanya, jawab }) {
   const [open, setOpen] = useState(false);
@@ -26,11 +26,13 @@ export default function FaqCard({ tanya, jawab }) {
         >
           {tanya}
         </h1>
-        {open ? (
-          <AiFillCaretUp className="mx-3" />
-        ) : (
-          <AiFillCaretDown className="mx-3" />
-        )}
+        <div className="transition-all duration-300">
+          {open ? (
+            <AiFillCaretUp className="mx-3 transition-all duration-500 " />
+          ) : (
+            <AiFillCaretUp className="mx-3 -rotate-180  transition-all duration-500" />
+          )}
+        </div>
       </div>
       <div className="bg-slate-200 w-full h-0.5 mt-2 md:mt-4"></div>
       <div className={`${open ? "block" : "hidden"} -z-10 `}>

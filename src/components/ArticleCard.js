@@ -1,6 +1,6 @@
 export default function ArticleCard({ img, judul, tanggal, caption }) {
   return (
-    <div className="flex px-9 w-full mx-auto pt-8 ">
+    <div className="flex px-9 w-full mx-auto pt-8 pb-5">
       <div className="mx-auto w-96 md:flex md:w-2/3 ">
         <div>
           <img
